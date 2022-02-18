@@ -1,0 +1,111 @@
+.blog-container{
+   
+    font-family: Bai Jamjuree;
+    font-size: 2vw;
+    
+    font-weight: 700;
+    border: black solid 0.2vw;
+    padding: 5vw;
+    background: #ccff00;
+    
+    
+    .blog-list{
+        display: grid;
+        grid-template-columns: 70vw;
+        width: 80vw;
+        height: 44vw;
+        
+        text-decoration: none;
+
+        .blog-img{
+            z-index: 20;
+            bottom:5%;
+            background-size:cover;
+            background-position: center;
+            transform-origin: right;
+            width: 50%;
+            height: 100%;
+            will-change: transform;
+            transform: scale(0.7);
+            transform: TranslateX(100%);
+            transition: all 1.5s cubic-bezier(0.77, 0, 0.175, 1);
+            filter: grayscale(100%)  brightness(80%);
+           
+            
+            
+        }
+    .blog-item{
+        height: 40vw;
+        font-family: Bai Jamjuree;
+        font-size: 3vw;
+        border: solid black 0.2vw;
+        margin-bottom: 2vw;
+        padding: 0vw 2vw;
+        color: black;
+        background: white;
+        .title{
+            h1{
+            text-align:left;
+            position: absolute;
+            bottom: 100%;
+            font-weight: 700;
+            font-size: 3vw;
+            max-width: 30vw;
+            padding-top: 1vw ;
+            margin-bottom: 0 ;
+            }
+            p{ 
+                padding-bottom: 3vw ;
+                font-weight:400;
+                font-size: 1vw;
+                max-width: 30vw;
+            }
+            // text-shadow: 2px 2px 2px black;
+        }
+       
+        .text-info{
+           
+            position: absolute;
+            bottom: 15%;
+            z-index: 1;
+            padding: 1vw;
+          
+            h5{
+                font-size: 1vw;
+                line-height: 1vw;
+                margin: 1vw;
+                margin-left: 0;
+                bottom: 2vw;
+                position: relative;
+            }
+            a{
+                &:hover{
+                    color: #ff7b19;
+                    
+                }    
+                text-decoration: underline;
+                color: inherit;
+                font-size: 1vw;
+                line-height: 1vw;
+                margin-left: 0;
+                bottom: 3vw;
+                position: relative;
+            }
+        }
+    
+      
+    }
+   }
+}
+
+.blog-title{
+    font-family: "Synacopate", sans-serif;
+    font-weight: 600;
+    font-size: 1vw;
+    margin-bottom: 5vw;
+    text-transform: uppercase;
+    color: black;
+    text-align: left;
+}
+
+

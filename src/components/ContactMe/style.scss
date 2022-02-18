@@ -1,0 +1,114 @@
+.contact-page{
+    display: flex;
+    overflow: hidden;
+    background-color: black;
+    color: #ccff00;
+    font-family: "Bai Jamjuree";
+    font-weight: 700;
+    font-size: 7vw;
+    text-align: left;
+    line-height: 1;
+    border: solid black 0.2vw;
+  
+   
+    #contact-content{
+        text-shadow: 1px 1px 1px black;
+        width:60vw;
+        text-align: left;
+        #header{
+            line-height: 0.9; 
+            padding: 5vw;
+            padding-top: 8vw;
+            width: 50vw;
+        }
+        p{  
+            text-shadow: 1px 1px 1px black;
+            padding-top: -5vw;
+            text-align: left;
+            width: 50vw;
+            padding-left: 5vw;
+            padding-right: 5vw;
+            text-transform: none;
+            font-size: 1.5vw;
+            font-weight: 700;
+            line-height: 1.12;
+            font-family: "Bai Jamjuree"
+        }
+    }
+    
+    .form{
+
+        left: 20vw;
+        position: relative;
+        #form-content{
+            width: 60vw;
+            form{
+                .form-group{
+                    
+                    font-size: 2vw;
+                    margin-top: 2vw;
+                    input{
+                        width: 100%;
+                        font-size: 2vw;
+                        border: solid black 0.1vw;
+                        border-radius: 50px;
+                        font-family: "Bai Jamjuree";
+                        font-weight: 400;
+                    }
+                    textarea{
+                        margin-top: 2vw;
+                        width: 100%;
+                        font-size: 2vw;
+                        border: solid black 0.1vw;
+                        border-radius: 50px;
+                        resize: vertical;
+                        font-family: "Bai Jamjuree";
+                        font-weight: 400;
+                    }
+
+                }
+
+                button{
+                    width: 100%;
+                    font-size: 2vw;
+                    background-color: black;
+                    color: white;
+                    font-weight: 700;
+                    font-family: "Bai Jamjuree";
+                    border-radius: 50px;
+                    cursor: pointer;
+                }
+            }
+
+        }
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        color: black;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        border-left: solid black 0.2vw;
+       
+        #slide-btn{ 
+            font-size: 2vw;
+            margin-top: 1vw;
+            margin-right:54vw;
+            padding: 0.5vw;
+            text-align: left;
+            border: black 0.2vw solid;
+            border-radius: 50px;
+            cursor: pointer;
+        }
+        #close-btn{ 
+            font-size: 1.8vw;
+            margin-left:54vw;
+            margin-top: 1vw ;
+            padding: 0.5vw;
+            text-align: right;
+            border: black 0.2vw solid;
+            border-radius: 50px;
+            cursor: pointer;
+        }
+    }
+
+}

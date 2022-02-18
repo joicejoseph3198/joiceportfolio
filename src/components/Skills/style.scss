@@ -1,0 +1,68 @@
+.skill {
+    background-color: #ccff00;
+    border-top-width: 0;
+    position: relative;
+    margin: 0;
+    width: 100vw;
+    color: black;
+    
+    #heading{
+        
+        padding-top: 2vw;
+        padding-left: 5vw;
+        font-family: "Synacopate", sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 1vw;
+        text-align: left;
+    }
+    #sections{
+        padding: 3vw;
+        display: flex;
+        justify-content: space-between;
+        font-size: 2.5vw;
+        font-weight: 400;
+        line-height: 1.12;
+        font-family: "Bai Jamjuree";
+
+        #prog{
+            font-weight: 600;
+            
+            #list{
+            text-transform: none;
+            font-weight: 400;
+            font-size: 2.5vw;
+            display: flex;
+            flex-direction: column;
+            list-style-type: none;
+            }
+        }
+        #webd{
+            font-weight: 600;
+            
+            #list{
+            text-transform: none;
+            font-weight: 400;
+            font-size: 2.5vw;
+            display: flex;
+            flex-direction: column;
+            list-style-type: none;
+            }
+        }
+        #ml{
+            font-weight: 600;
+           
+            #list{
+            text-transform: none;
+            font-weight: 400;
+            font-size: 2.5vw;
+            display: flex;
+            flex-direction: column;
+            list-style-type: none;
+            }
+        }
+    }
+    
+    
+
+}

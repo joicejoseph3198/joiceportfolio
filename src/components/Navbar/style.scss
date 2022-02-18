@@ -1,0 +1,46 @@
+.navbar {
+    height: 5vh;
+    display: flex;
+    border-bottom: 0;
+    justify-content: space-between;
+    padding: 1vw 1vw;
+    font-size: 2vw;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 600;
+    color: #ccff00;
+    text-transform: uppercase;
+    background: black;
+    
+    border-bottom: 0;
+
+    .menu{
+        text-transform: lowercase;
+        text-decoration: none;
+    }
+
+    a{ 
+        color: inherit;
+    } 
+
+    #mail,#linkd,#git{
+        margin-left: 1vw;
+        border: 0;
+        &:hover{
+            color: #ff7b19;
+            
+        }    
+    }
+
+    ul{ 
+        
+        opacity: 1;
+        padding-left: 0vw;
+        margin-top: 0;
+        display:flex;
+        font-size: 1.5vw;
+        border: 0;
+        list-style-type: none;
+
+    
+    }
+}

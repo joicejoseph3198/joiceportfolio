@@ -1,0 +1,51 @@
+.nav-top{
+    font-family: "Bai Jamjuree";
+    font-weight: 600;
+    --nav-gap: 1vw;
+    padding: var(--nav-gap);
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.3vw;
+
+    .nav-item{
+       
+        color: #838383;
+        align-items: center;
+        padding: var(--nav-gap);
+        margin-right: var(--nav-gap);
+        .nav-link{
+            
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: row-reverse;
+            background: rgba(83, 83, 82, 0.3);
+            border-radius: 50%;
+            border: black solid 2px;
+            
+            height: 1vw;
+            transition: transform 0.1s;
+            width: 1vw;
+        &:hover #nav-label{
+            opacity: 1;
+            color: #ff7b19; 
+            
+        }    
+        &:hover {
+            background: black;
+        }
+        }
+        .nav-label{
+           
+            opacity: 0;
+            margin-right:2vw ;
+        }
+
+        
+
+    }
+
+}
+

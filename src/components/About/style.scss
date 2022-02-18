@@ -1,0 +1,123 @@
+img{
+    clip-path: inset(100% 0% 0% 0%);
+    transition: clip-path 1s cubic-bezier(0.77,0,0.175,1);
+    width: 40vw;
+
+    &.is-reveal{
+        clip-path: inset(0% 0% 0% 0%);
+    }
+
+}
+
+
+.about {
+    border-right:black solid 0.2vw; 
+    border-top: 0;
+    display: flex;
+    overflow: visible;
+    font-weight: 700;
+    color: black;
+    max-height: 100vh;
+    background: rgb(204, 255, 0);
+    // border: solid 2px #ccff00;
+    
+    #about-info {
+        margin-top: 10vw;
+        width: 80vw;
+        left: 50vw;
+        position: relative;
+        margin-bottom: 2vw;
+        h2{
+            font-family: "Syncopate", sans-serif;
+            font-size: 1vw;
+            font-weight: 600;
+            text-align: right;
+            margin-top:5vw;
+            margin-bottom: 1vw;
+            margin-left: 70vw;
+            padding: 0.5vw;
+            cursor: pointer;
+            text-transform: uppercase;
+            border: black 0.2vw solid;
+            border-radius: 60px;
+            background: black;
+            color: white;
+        }
+        background: white;
+        opacity: 0;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        padding-top: 10vw;
+        font-size: 2.8vw;
+        font-weight: 400;
+        line-height: 1.12;
+        font-family: 'Bai Jamjuree';
+        transform: translate(0);
+        border: solid 0.2vw black;
+        &.is-reveal{
+            opacity: 1;
+        }
+    }
+
+    
+    .about-content{   
+        // display: flex;
+        // flex-wrap: nowrap;
+        // flex-direction: row; 
+       
+        color:black;
+        
+
+        #about-visual{ 
+            width: 12vw;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: none;
+            border-bottom: 0;
+
+            .about-heading {
+                width: 100%;
+                margin-top: 5vw;
+                margin-left: 5vw;
+                font-family: 'Synacopate' , sans-serif;
+                font-weight: 700;
+                text-transform: uppercase;
+                font-size: 1vw;
+                text-align:left;
+                
+            }
+
+            .about-image{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-items: flex-end;
+                width: 40vw;
+                margin: 5vw;
+                img{
+                    width: 35vw;
+                }
+                h2{
+                    font-family: "Syncopate", sans-serif;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    font-size: 1vw;
+                    border: black 0.2vw solid;
+                    border-radius: 60px;
+                    margin-left: 5vw;
+                    padding: 0.5vw;
+                    cursor: pointer;
+                    background: black;
+                    color: white;
+                    
+                }
+    
+        }
+        
+        }
+    }
+}
+
+
+
+
