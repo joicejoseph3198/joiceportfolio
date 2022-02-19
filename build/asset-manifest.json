@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/joicejoseph3198.github.io/static/css/main.a3bb3f82.chunk.css",
+    "main.js": "/joicejoseph3198.github.io/static/js/main.a43eac44.chunk.js",
+    "main.js.map": "/joicejoseph3198.github.io/static/js/main.a43eac44.chunk.js.map",
+    "runtime-main.js": "/joicejoseph3198.github.io/static/js/runtime-main.8c3c3fb5.js",
+    "runtime-main.js.map": "/joicejoseph3198.github.io/static/js/runtime-main.8c3c3fb5.js.map",
+    "static/css/2.69402d9d.chunk.css": "/joicejoseph3198.github.io/static/css/2.69402d9d.chunk.css",
+    "static/js/2.9b6b669f.chunk.js": "/joicejoseph3198.github.io/static/js/2.9b6b669f.chunk.js",
+    "static/js/2.9b6b669f.chunk.js.map": "/joicejoseph3198.github.io/static/js/2.9b6b669f.chunk.js.map",
+    "index.html": "/joicejoseph3198.github.io/index.html",
+    "static/css/2.69402d9d.chunk.css.map": "/joicejoseph3198.github.io/static/css/2.69402d9d.chunk.css.map",
+    "static/css/main.a3bb3f82.chunk.css.map": "/joicejoseph3198.github.io/static/css/main.a3bb3f82.chunk.css.map",
+    "static/js/2.9b6b669f.chunk.js.LICENSE.txt": "/joicejoseph3198.github.io/static/js/2.9b6b669f.chunk.js.LICENSE.txt",
+    "static/js/main.a43eac44.chunk.js.LICENSE.txt": "/joicejoseph3198.github.io/static/js/main.a43eac44.chunk.js.LICENSE.txt",
+    "static/media/Final Image 1.e4713098.jpg": "/joicejoseph3198.github.io/static/media/Final Image 1.e4713098.jpg",
+    "static/media/blog2.6ba3bd15.jpg": "/joicejoseph3198.github.io/static/media/blog2.6ba3bd15.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c3c3fb5.js",
+    "static/css/2.69402d9d.chunk.css",
+    "static/js/2.9b6b669f.chunk.js",
+    "static/css/main.a3bb3f82.chunk.css",
+    "static/js/main.a43eac44.chunk.js"
+  ]
+}

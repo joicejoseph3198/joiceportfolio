@@ -4,13 +4,13 @@ import Navbar  from './components/Navbar';
 import Header from './components/Header';
 import About from './components/About';
 import Gallery from './components/Gallery';
-import Footer from './components/Footer';
+
 import Skills from './components/Skills';
 import ContactMe from './components/ContactMe';
 import useLocoScroll from './components/hooks/useLocoScroll';
 import Timeline from './components/Timeline';
 import Blog from './components/Blog';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import {HashRouter as Router, Route, Routes} from 'react-router-dom';
 // import CustomCursor from './CustomCursor';
 
 
