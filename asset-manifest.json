@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/joicejoseph3198.github.io%20%20/static/css/main.368aa4a0.chunk.css",
+    "main.js": "/joicejoseph3198.github.io%20%20/static/js/main.ed8a8d90.chunk.js",
+    "main.js.map": "/joicejoseph3198.github.io%20%20/static/js/main.ed8a8d90.chunk.js.map",
+    "runtime-main.js": "/joicejoseph3198.github.io%20%20/static/js/runtime-main.1b2fa7c0.js",
+    "runtime-main.js.map": "/joicejoseph3198.github.io%20%20/static/js/runtime-main.1b2fa7c0.js.map",
+    "static/css/2.69402d9d.chunk.css": "/joicejoseph3198.github.io%20%20/static/css/2.69402d9d.chunk.css",
+    "static/js/2.ad9fbd51.chunk.js": "/joicejoseph3198.github.io%20%20/static/js/2.ad9fbd51.chunk.js",
+    "static/js/2.ad9fbd51.chunk.js.map": "/joicejoseph3198.github.io%20%20/static/js/2.ad9fbd51.chunk.js.map",
+    "index.html": "/joicejoseph3198.github.io%20%20/index.html",
+    "static/css/2.69402d9d.chunk.css.map": "/joicejoseph3198.github.io%20%20/static/css/2.69402d9d.chunk.css.map",
+    "static/css/main.368aa4a0.chunk.css.map": "/joicejoseph3198.github.io%20%20/static/css/main.368aa4a0.chunk.css.map",
+    "static/js/2.ad9fbd51.chunk.js.LICENSE.txt": "/joicejoseph3198.github.io%20%20/static/js/2.ad9fbd51.chunk.js.LICENSE.txt",
+    "static/js/main.ed8a8d90.chunk.js.LICENSE.txt": "/joicejoseph3198.github.io%20%20/static/js/main.ed8a8d90.chunk.js.LICENSE.txt",
+    "static/media/Final Image 1.e4713098.jpg": "/joicejoseph3198.github.io%20%20/static/media/Final Image 1.e4713098.jpg",
+    "static/media/blog2.6ba3bd15.jpg": "/joicejoseph3198.github.io%20%20/static/media/blog2.6ba3bd15.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b2fa7c0.js",
+    "static/css/2.69402d9d.chunk.css",
+    "static/js/2.ad9fbd51.chunk.js",
+    "static/css/main.368aa4a0.chunk.css",
+    "static/js/main.ed8a8d90.chunk.js"
+  ]
+}
