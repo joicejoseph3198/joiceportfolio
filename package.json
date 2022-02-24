@@ -1,8 +1,8 @@
 {
   "name": "web-1",
-  "homepage": "https://joicejoseph3198.github.io/joicejoseph3198.github.io",
+  "homepage": "https://joicejoseph3198.github.io/joiceportfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
